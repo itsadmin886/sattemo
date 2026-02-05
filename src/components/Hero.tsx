@@ -1,3 +1,5 @@
+import logo from "@/assets/logo.png";
+
 const Hero = () => {
   return (
     <section
@@ -14,9 +16,9 @@ const Hero = () => {
         <div className="flex flex-col items-center gap-4">
           <div className="flex flex-col items-center gap-4 md:flex-row md:items-center">
             <img
-              src="/src/assets/logo.png"
+              src={logo}
               alt="ყველის სახლი logo"
-              className="h-36 w-36 md:h-56 md:w-56 lg:h-72 lg:w-72 object-contain -translate-x-6 md:-translate-x-8 lg:-translate-x-10"
+              className="h-44 w-44 md:h-64 md:w-64 lg:h-80 lg:w-80 object-contain -translate-x-4 md:-translate-x-6 lg:-translate-x-8"
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-0 animate-fade-in">
               ყველის სახლი – სათემო
